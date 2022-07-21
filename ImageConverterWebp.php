@@ -93,7 +93,7 @@ Class ImageConverterWebp {
                     $results[] = [
                         "IMAGE"=>$path,
                         "IMAGE_WEBP"=>mb_substr($path, 0, -3) . 'webp',
-                        "TYPE"=>"jpg",
+                        "TYPE"=>"png",
                     ];
                 }
 
